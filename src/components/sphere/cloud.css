@@ -1,0 +1,39 @@
+.text-sphere {
+    position: relative;
+    top: 0;
+    /* width: 100%; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+  }
+  
+  .tagcloud {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.0625rem;
+    font-size: 1.3rem;
+    color: #38BDF8;
+    text-transform: uppercase;
+  }
+  
+  .tagcloud--item {
+    transition: color 0.3s ease;
+  }
+  
+  .tagcloud--item:hover {
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .tagcloud {
+      font-size: 1rem; /* Smaller font size on mobile */
+    }
+  
+    .text-sphere {
+      height: 400px; /* Adjust the container height on smaller screens */
+    }
+  }
+  
