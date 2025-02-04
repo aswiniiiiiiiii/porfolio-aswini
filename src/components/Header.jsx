@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Resume from '../assets/Aswini P.S.pdf'
+import Resume from '../assets/AswiniPS.pdf'
 
 const Header = () => {
 

@@ -17,10 +17,10 @@ const Contact = () => {
               <a target="_blank" aria-label="Check Out My GitHub" className='  ' href="https://github.com/aswiniiiiiiiii">
                 <i className="cursor-pointer fa-brands fa-github  rounded-full border-1   py-2  hover:bg-sky-400  hover:text-white px-3 text-sky-400 text-4xl"></i>
               </a>
-              <a target="_blank"  aria-label="Check Out My Linkedin" href="www.linkedin.com/in/aswinips">
+              <a target="_blank"  aria-label="Check Out My Linkedin" href="https://www.linkedin.com/in/aswinips/">
                 <i className="cursor-pointer fa-brands fa-linkedin px-3 border-1  rounded-full py-2    hover:bg-sky-400  hover:text-white text-sky-400 text-4xl"></i>
               </a>
-              <a target="_blank"   href="aswinips787@gmail.com">
+              <a target="_blank"   href="https://gmail.com">
                 <i className="cursor-pointer fa-regular fa-envelope px-3  border-1  rounded-full py-2  hover:bg-sky-400  hover:text-white  text-sky-400 text-4xl"></i>
               </a>
             </div>

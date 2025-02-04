@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Resume from '../assets/Aswini P.S.pdf'
+import Resume from '../assets/AswiniPS.pdf'
 import GIF from '../assets/png1.png'
 
 const About = () => {
@@ -33,7 +33,7 @@ const About = () => {
               <a target="_blank" aria-label="Check Out My GitHub" className='  ' href="https://github.com/aswiniiiiiiiii">
                 <i className="cursor-pointer fa-brands fa-github  rounded-full border-1   py-2  hover:bg-sky-400  hover:text-black px-3 text-sky-400 text-3xl  md:text-4xl"></i>
               </a>
-              <a target="_blank"  aria-label="Check Out My Linkedin" href="www.linkedin.com/in/aswinips">
+              <a target="_blank"  aria-label="Check Out My Linkedin" href="https://www.linkedin.com/in/aswinips/">
                 <i className="cursor-pointer fa-brands fa-linkedin px-3 border-1  rounded-full py-2    hover:bg-sky-400  hover:text-black text-sky-400 text-3xl   md:text-4xl"></i>
               </a>
               <a target="_blank"   href="aswinips787@gmail.com">
