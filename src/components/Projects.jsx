@@ -51,7 +51,7 @@ const Projects = () => {
               <p className='py-1'>{project.description || "No Description Available"}</p>
               <p className='py-1'><sapn className="text-sky-400">Stack Used</sapn>: {project.StackUsed || "No Stack Available"}</p>
               <div className='flex justify-between my-2'>
-                <button style={{borderRadius:'0 20px 0 20px'}} className=' px-1 md:p-1 md:px-2 bg-sky-400 hover:font-semibold hover:text-black'>
+                <button style={{borderRadius:'0 20px 0 20px'}} className=' px-2 p-1 md:p-1 md:px-2 bg-sky-400 hover:font-semibold hover:text-black'>
                   <a target='_blank' href={project.githubLink}>Source Code</a>
                 </button>
                 {/* <button style={{borderRadius:'0 20px 0 20px'}} className=' p-1 px-2 bg-sky-400 hover:text-black hover:font-semibold'>
