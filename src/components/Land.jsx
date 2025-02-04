@@ -13,7 +13,7 @@ const Land = () => {
     <div style={{border:'1px red solid !important'}} id='header-part' className="land-container">
       {/* Particles */}
       <div>
-        <Particles
+        <Particles className='overflow-x-hiddenx'
           id="tsparticles"
           init={particlesInit}
           options={{
@@ -113,9 +113,10 @@ const Land = () => {
       <section className="land-content px-10 sm:px-10 lg:px-40 py-20  md:px-40 pb-40 pt-10  ">
         <div className='lg:gap-7  sm:gap-3 md:gap-5   grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
           <div className="text-section  md:flex-none flex flex-col justify-items-center text-center md:text-none   sm:my-10 sm:text-center md:text-left md:py-20">
-            <h2 data-aos="fade-down" className="text-xl md:text-2xl "> Hi! My name is</h2>
+            <h2 data-aos="fade-down" className="text-xl md:text-2xl "> Hey there!</h2>
             <h1 data-aos="fade-right" className="text_land text-3xl lg:text-4xl md:text-5xl xl:text-6xl font-bold">ASWINI P S</h1>
             <h1 data-aos="fade-left" className="md:text-3xl  text-xl">I Am a Full Stack Developer</h1>
+            {/* <p className="text-2xl">I loves turning ideas into reality through code.</p> */}
             {/* <div  className='my-2'><a style={{borderRadius:'0 20px 0 20px'}} className='text-xl   text-white hover:text-sky-400 hover:bg-sky-400  border-2  border-sky-400 p-2 cursor-pointer relative' href="">Download My Resume</a></div> */}
           </div>
           <div></div>

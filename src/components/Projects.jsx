@@ -37,7 +37,7 @@ const Projects = () => {
   return (
     <section style={{ background: '#0b1121' }} id='projects' className='projects px-10 sm:px-40 lg:px-40  md:px-10 py-20'>
       <h2 className='text-sky-400 mb-2 text-2xl'>03 Development</h2>
-      <a data-aos="fade-up-right" className="font-bold cursor-none text-5xl py-2 relative  before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-sky-400 before:transition-all before:duration-300 hover:before:w-full ">Things I've Built</a>
+      <a data-aos="fade-up-right" className="font-bold cursor-none py-2 relative  before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-sky-400 before:transition-all before:duration-300 hover:before:w-full  text-3xl md:text-5xl">Things I've Built</a>
 
       <div className='grid my-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-10'>
         {/* Render the current page's projects */}
@@ -54,9 +54,9 @@ const Projects = () => {
                 <button style={{borderRadius:'0 20px 0 20px'}} className=' px-1 md:p-1 md:px-2 bg-sky-400 hover:font-semibold hover:text-black'>
                   <a target='_blank' href={project.githubLink}>Source Code</a>
                 </button>
-                <button style={{borderRadius:'0 20px 0 20px'}} className=' p-1 px-2 bg-sky-400 hover:text-black hover:font-semibold'>
+                {/* <button style={{borderRadius:'0 20px 0 20px'}} className=' p-1 px-2 bg-sky-400 hover:text-black hover:font-semibold'>
                   <a target='_blank' href={project.liveDemo}>Live Demo</a>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

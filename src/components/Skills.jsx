@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <div id='skill' style={{background:"#0b1121"}} className='px-10 py-10 md:px-40 xl:px-40 lg:px-40'>
         <h3  className="text-2xl mb-2 text-sky-400">02.Skills</h3>
-        <a data-aos="fade-right" className="font-bold cursor-pointer text-5xl my-3 py-2 relative  before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-sky-400 before:transition-all before:duration-300 hover:before:w-full ">Skills</a>      
+        <a data-aos="fade-right" className="font-bold cursor-pointer  text-3xl md:text-5xl my-3 py-2 relative  before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-sky-400 before:transition-all before:duration-300 hover:before:w-full ">Skills</a>      
       <div
    
        className="grid my-10 xl:grid-cols-5 grid-cols-2 sm:gap-10 md:grid-cols-3  gap-3  md:gap-20">
